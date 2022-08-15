@@ -430,7 +430,7 @@ h2 i {
 .conteiner-digital .cora {
     color: red;
 }
-
+/* EXPERIENCIA */
 .section4 {
     background-image: linear-gradient(rgba(86, 215, 238, 0.571), rgba(11, 109, 109, 0.27)), url("img/section4.jpg");
     background-repeat: no-repeat;
@@ -1049,6 +1049,10 @@ footer {
     .section4 .exp {
         padding-top: 3rem;
         padding-bottom: 2rem;
+        width: 100%;
+    }
+    .section4 .conocenos {
+        display: none;
     }
    
     .digital {
@@ -1074,6 +1078,9 @@ footer {
     }
     .section3 {
         height: 100%;
+    }
+    .section4 {
+        flex-direction: column-reverse;
     }
     .about__content h1 {
         font-size: 3rem;
@@ -1163,5 +1170,10 @@ footer {
        }
     .galeria {
         height: 130vh;
+    }
+    .galeria-img img:hover {
+        transform: scale(2.55);
+        transition: all 0.3s ease;
+        cursor: pointer;
     }
 }
