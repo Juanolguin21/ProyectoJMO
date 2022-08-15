@@ -1010,12 +1010,12 @@ footer {
         top: 128px;
         right: 0;
         width: 50%;
-        height: calc(100vh - 100px);
+        height: calc(100vh - 150px);
         justify-content: center;
         align-items: center;
         display: none;
         z-index: 9999;
-        border: 2px solid var(--gren);
+        border: 2px solid var(--grey);
     }
     .navbar {
         flex-direction: row-reverse;
