@@ -928,9 +928,6 @@ footer {
    .about__content .btn {
     font-size: 1rem;
    }
-   .card__container {
-    flex-direction: column;
-   }
    
    .card {
     padding: 1rem;
@@ -1035,6 +1032,10 @@ footer {
     .description__section h2 {
         font-size: 1rem;
         padding: 1rem;
+        width: 95%;
+       }
+       .card__container {
+        flex-direction: column;
        }
     .section1 {
         background-position:right ;
