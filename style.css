@@ -615,7 +615,7 @@ h2 i {
 }
 .galeria {
     width: 100%;
-    height: 250vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -626,7 +626,7 @@ h2 i {
     flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
-    padding: 30px;
+    padding: 8rem;
     border-bottom: 1px solid var(--black);
 }
 
