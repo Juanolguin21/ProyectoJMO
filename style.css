@@ -183,7 +183,7 @@ header:hover{
     align-items: center;
     flex-wrap: wrap;
     justify-content: flex-start;
-    gap: 20px;
+    gap: 1rem;
 }
 
 .about__content .btn {
@@ -317,22 +317,22 @@ h2 i {
 .card__container {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    gap:6px;    
+    align-items: stretch;
+    justify-content: center;
+    width: 90%;   
+    gap: 1rem;     
 }
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 1rem;
     border: 2px solid var(--gren);
     background: var(--black);
     border-radius: 1rem;
     box-shadow: 0 0 3px 4px var(--black);
     transition: all 0.3s ease;
+    padding: 1rem;
 }
 .card:hover {
     transform: scale(1.05);
@@ -344,7 +344,7 @@ h2 i {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    gap:20px;
+    gap:2px;
 }
 .card ul li {
     display:flex;
@@ -508,7 +508,7 @@ h2 i {
     font-style: none;
     background-color: var(--gren);
     color: var(--black);
-    font-weight: 700;
+    font-weight: 900;
     border-radius: 10px;
     transition: all 0.3s linear;
 }
@@ -615,7 +615,7 @@ h2 i {
 }
 .galeria {
     width: 100%;
-    height: 150vh;
+    height: 250vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -623,7 +623,7 @@ h2 i {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     align-content: center;
     padding: 30px;
@@ -634,7 +634,7 @@ h2 i {
     background-color: var(--black);
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    width: 100%;
     height: auto;
     border:2px solid var(--gren);
     align-content: flex-start;
@@ -692,7 +692,7 @@ h2 i {
     border-radius: 1rem;
 }
 .galeria-img img:hover {
-    transform: scale(2.05);
+    transform: scale(1.2);
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -913,7 +913,7 @@ footer {
     width: 20rem;
     flex-wrap: wrap;
     padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-bottom: 4rem;
     justify-content: space-evenly;
     
    }
@@ -966,9 +966,6 @@ footer {
    }
    .imagen-jobs {
     width: 70%;
-    }
-    .paginas {
-    width: 100%;
     }
     .galeria {
     height: 160vh;
