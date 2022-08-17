@@ -1165,6 +1165,9 @@ footer {
     .section6 {
         align-items: center;
     }
+    .galeria {
+    padding: 20px;
+    }
   
 }
 @media (max-width: 520px) {
