@@ -540,13 +540,14 @@ h2 i {
     display:flex;
     align-items: center;
     justify-content: center;
-    color: var(--black);
-    background-color: var(--grey); 
+    color: var(--white);
+    background-color: rgba(3, 3, 49, 0.914); 
     font-size: 1.5rem;
     border: 3px solid var(--black); 
     transition: all 0.3s linear;
     padding: 10px;
-    font-weight: bold;
+    font-weight:300;
+    border-radius: 1rem;
 }
 .section6 a:hover {
     box-shadow: 2px 1px 2px 2px var(--black);
