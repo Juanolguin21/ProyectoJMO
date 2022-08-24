@@ -1172,6 +1172,10 @@ footer {
   
 }
 @media (max-width: 520px) {
+    .about__content {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    }
     .logos i {
         font-size: 4rem;
        }
@@ -1186,4 +1190,66 @@ footer {
         transition: all 0.3s ease;
         cursor: pointer;
     }
+}
+@media (max-width: 400px) {
+    .logo img {
+        width: 4rem;
+    }
+    .about__content h1 {
+        font-size: 1.5rem;
+      
+    }
+    .about__content h2 {
+        font-size: 1.8rem;
+        
+    }
+    .about__content p {
+        font-size: 1.2rem;
+        padding-bottom: 20px;
+    }     
+    .navbar {
+        margin-right: 1rem;
+        width: auto;
+    }
+    header {
+        width: 100%;
+    }
+    .conteiner-digital i {
+        font-size: 1.5rem;
+    }
+    .conteiner-digital h1 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        width: auto;
+    }
+
+    .datos ul li h2,h3,a{
+        font-size:small ;
+
+    }
+    .redes {
+        gap:2px;
+    }
+
+    .logos i{
+        font-size: 1.3rem;
+
+    }
+    .section6 i {
+        font-size: 0.8rem ;
+    }
+    .herramientas h1 {
+        font-size: 0.7rem;
+    }
+    .herramientas ul li{
+        font-size: 0.4rem;
+    }
+    .legales h2 {
+        font-size: 0.6rem ;
+       }
+    .legales h3 {
+        font-size: 0.7rem ;
+       }
 }
