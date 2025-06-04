@@ -40,9 +40,9 @@ main {
     justify-content: center;
     align-items: center;
     opacity: 0.6;
-    border-radius: 2rem;
+    border-radius: 1rem;
     padding: 5px;
-    border: 3px solid var(--gren);
+    border: 3px solid var(--grey);
     transition: all 0.4s linear;
 }
 .logo img:hover {
@@ -86,8 +86,8 @@ ul {
     color:var(--grey);
     cursor: pointer;
     display:none;
-    border-radius: 50%;
-    border: 2px solid var(--gren);
+    border-radius: 10%;
+    border: 2px solid var(--grey);
     padding: 10px;
     transition: all 0.4s ease;
 }
@@ -203,8 +203,8 @@ header:hover{
     font-weight: var(--medium);
     cursor: pointer;
     display: flex;
-    box-shadow: 0 0 1px 1px var(--gren);
-    border:1px solid var(--gren);
+    box-shadow: 0 0 1px 1px var(--grey);
+    border:1px solid var(--grey);
     transition: all 0.2s linear;
 }
 
