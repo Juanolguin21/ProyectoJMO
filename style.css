@@ -936,17 +936,18 @@ footer {
     flex-wrap: wrap;
     padding-top: 5rem;
     padding-bottom: 4rem;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
    }
    .about__content {
     gap: 5px;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
    }
    .about__content--img {
     width: 10rem;
-    padding-bottom: 1px;
+    
    }
    .about__content .btn {
     font-size: 1rem;
@@ -1202,7 +1203,7 @@ footer {
 }
 @media (max-width: 520px) {
     .about__content {
-    padding-top: 0.5rem;
+    padding-top: 0.2rem;
     padding-bottom: 0.5rem;
     }
     .logos i {
