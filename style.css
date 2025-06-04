@@ -935,13 +935,12 @@ footer {
     width: 20rem;
     flex-wrap: wrap;
     padding-top: 5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 7rem;
     justify-content: space-around;
     
    }
    .about__content {
     gap: 5px;
-    align-items: center;
     justify-content: center;
     padding-top: 20px;
    }
@@ -1202,10 +1201,7 @@ footer {
   
 }
 @media (max-width: 520px) {
-    .about__content {
-    padding-top: 0.2rem;
-    padding-bottom: 0.5rem;
-    }
+
     .logos i {
         font-size: 4rem;
        }
