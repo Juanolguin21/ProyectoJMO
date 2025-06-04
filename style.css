@@ -637,13 +637,12 @@ h2 i {
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    
+    border-radius: 1rem;
     align-content: flex-start;
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
     padding: 20px;
-    
     box-shadow: 1px 1px 6px 4px var(--black);
 }
 .galeria h1 {
