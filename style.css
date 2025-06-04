@@ -991,11 +991,18 @@ footer {
     }
     .galeria {
     height: 160vh;
+    flex-direction: column;
     }
     .galeria-img {
+    display: none;
     flex-wrap: nowrap;
     flex-direction: column;
     width: 30%;
+    }
+    .galeria-img2 {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
     }
     .galeria-img img {
     border: 1px solid var(--black);
