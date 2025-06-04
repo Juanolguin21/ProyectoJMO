@@ -632,18 +632,18 @@ h2 i {
 }
 
 .paginas {
-    background-color: var(--black);
+    
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     height: auto;
-    border:2px solid var(--gren);
+    
     align-content: flex-start;
     justify-content: center;
     align-items: flex-start;
     gap: 30px;
     padding: 20px;
-    border-radius: 1rem;
+    
     box-shadow: 1px 1px 6px 4px var(--black);
 }
 .galeria h1 {
@@ -658,6 +658,7 @@ h2 i {
     box-shadow: 1px 1px 6px 4px var(--black);
     height: 6rem;
     padding: 1rem;
+    border-radius: 1rem;
 }
 .galeria h2 {
     color:var(--black);
@@ -991,7 +992,7 @@ footer {
     width: 80%;
     }
     .galeria {
-    height: 160vh;
+    height: 120vh;
     flex-direction: column;
     }
     .galeria-img {
@@ -1209,7 +1210,7 @@ footer {
         font-size: 1.3rem;
        }
     .galeria {
-        height: 130vh;
+        height: 120vh;
     }
     .galeria-img img:hover {
         transform: scale(2.55);
