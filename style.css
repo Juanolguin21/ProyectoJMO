@@ -988,7 +988,7 @@ footer {
     font-size: 2rem;
    }
    .imagen-jobs {
-    width: 70%;
+    width: 80%;
     }
     .galeria {
     height: 160vh;
@@ -1175,12 +1175,12 @@ footer {
         justify-content: space-evenly;
         }
     .imagen-jobs {
-        width: 80%;
+        width: 90%;
         height: auto;
     }
     .herramientas {
-        width: 80%;
-        height: 30vh;
+        width: 90%;
+        height: 35vh;
         gap: 0;
     }
     .herramientas h1 {
@@ -1267,10 +1267,10 @@ footer {
         font-size: 0.8rem ;
     }
     .herramientas h1 {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .herramientas ul li{
-        font-size: 0.4rem;
+        font-size: 0.9rem;
     }
     .legales h2 {
         font-size: 0.6rem ;
