@@ -684,15 +684,36 @@ h2 i {
     align-items: center;
     justify-content: center;
     align-content: center;
-    
 }
+    
+.galeria-img2 {
+    display: flex;
+    width: 15%;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
 .galeria-img img {
     display: flex;
     transition: all 0.3s ease;
     border: 3px solid var(--black);
     border-radius: 1rem;
 }
+.galeria-img2 img {
+    display: flex;
+    transition: all 0.3s ease;
+    border: 3px solid var(--black);
+    border-radius: 1rem;
+}
 .galeria-img img:hover {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.galeria-img2 img:hover {
     transform: scale(1.2);
     transition: all 0.3s ease;
     cursor: pointer;
