@@ -643,8 +643,8 @@ h2 i {
     align-items: flex-start;
     gap: 30px;
     padding: 20px;
-    box-shadow: 1px 1px 6px 4px var(--black);
-    background-color: var(--grey);
+    
+    
 }
 .galeria h1 {
     color: var(--white);
@@ -992,7 +992,6 @@ footer {
     width: 80%;
     }
     .galeria {
-    height: 120vh;
     flex-direction: column;
     }
     .galeria-img {
