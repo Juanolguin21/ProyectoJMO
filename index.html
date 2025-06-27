@@ -287,21 +287,22 @@
                 <a href="mailto:waltercito100@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
               </div>
         </footer>
+         <script>
+        // Usaremos Counting API: https://countapi.xyz/
+        const namespace = 'mi_proyecto'; // Puedes cambiarlo por otro identificador
+        const key = 'visitas';
+
+        // Función para incrementar y mostrar el conteo
+        fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
+        .then(response => response.json())
+        .then(data => {
+         document.getElementById('counter').innerText = data.value;
+         })
+        .catch(error => {
+        console.error('Error al obtener el contador:', error);
+        });
+        </script>
         <div class="visit-count" id="visit-count">Visitas: <span id="counter">0</span></div>
   </body>
-  <script>
-  // Usaremos Counting API: https://countapi.xyz/
-  const namespace = 'mi_proyecto'; // Puedes cambiarlo por otro identificador
-  const key = 'visitas';
-
-  // Función para incrementar y mostrar el conteo
-  fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById('counter').innerText = data.value;
-    })
-    .catch(error => {
-      console.error('Error al obtener el contador:', error);
-    });
-</script>
+ 
 </html>
