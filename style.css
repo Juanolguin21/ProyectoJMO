@@ -881,7 +881,7 @@ h2 i {
 }
 
 /* FOOTER*/
-.visit-count {
+.visits-count {
     display: flex;
     background-color: var(--black);
     justify-content: center;
