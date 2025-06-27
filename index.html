@@ -287,22 +287,22 @@
                 <a href="mailto:waltercito100@hotmail.com"><i class="fa-solid fa-envelope"></i></a>
               </div>
         </footer>
-         <script>
-        // Usaremos Counting API: https://countapi.xyz/
-        const namespace = 'mi_proyecto'; // Puedes cambiarlo por otro identificador
-        const key = 'visitas';
 
-        // Función para incrementar y mostrar el conteo
-        fetch(`https://api.countapi.xyz/hit/${namespace}/${key}`)
-        .then(response => response.json())
-        .then(data => {
-         document.getElementById('counter').innerText = data.value;
-         })
-        .catch(error => {
-        console.error('Error al obtener el contador:', error);
-        });
-        </script>
-        <div class="visits-count" id="visit-count">Visitas: <span id="counter">0</span></div>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const apiUrl = 'TU_ENDPOINT_DE_API_WEB'; // reemplaza con tu URL
+  
+    fetch(apiUrl)
+      .then(response => response.json())
+      .then(data => {
+        document.getElementById('counter').innerText = data.value;
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  });
+</script>
+        <div class="visits-count" id="visit-count">Visitas: <span id="counter">41239</span></div>
   </body>
  
 </html>
